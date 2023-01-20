@@ -50,5 +50,105 @@ header{
     margin-top: 28px;
 }
 
+main{
+    max-width: 1150px;
+    margin: 0 auto;
+}
 
+/* failure section */
+
+.failure-section{
+    display: flex;
+}
+
+.my-fails{
+    margin-left: 87px;
+    margin-top: 340px;
+    max-width: 430px;
+    text-align: left;
+}
+
+.section-title{
+    color: #151414;
+    font-weight: 750;
+    font-size: 50px;
+}
+
+.list-description{
+    margin-top: 24px;
+    color: #444343;
+    font-weight: 420;
+    font-size: 19px;
+}
+
+.list-of-my-fails{
+    color: #444343;
+    font-weight: 420;
+    font-size: 19px;
+    list-style: none;
+    margin-top: 15px;
+}
+/* .list-of-my-fails p{
+    margin: 0;
+} */
+.my-image{
+    margin-top: 141px;
+    width: 700px;
+    height: 810px;
+}
+
+/* style Plan section */
+
+.plans-section{
+    text-align: center;
+    margin-top: 130.7px;
+}
+
+.my-plans-container{
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    margin-top: 50px;
+   
+}
+
+.plan-title{
+    font-weight: 750;
+    font-size: 35px;
+    margin-top: 24px;
+    margin-bottom: 0;
+    
+}
+
+.plane-description{
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+    color: #737272;
+    margin-top: 16px;
+}
+
+/* style call now section */
+.call-now-section{
+    text-align: left;
+    background: url('../images/gradient1.png'), url('../images/watch.png');
+    background-size: 100% 100%;
+    border-radius: 8px;
+    height: 230px;
+    padding-top:50px;
+    padding-left:64px;
+    margin-top: 130px;
+}
+
+.quote-and-button{
+    margin-bottom:59px ;
+    width: 459px;
+}
+
+.call-now-section-quote{
+    font-weight: 750;
+    font-size: 40px;
+    color: #FFFFFF;
+    margin: 0;
+}
 
